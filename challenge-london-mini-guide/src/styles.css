@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: hsl(207, 26%, 17%);
+}
+
+.App {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: hsl(209, 23%, 22%);
+}
+
+.header p {
+  margin: 1rem 3rem;
+  background: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.header p:nth-child(1) {
+  font-weight: 800;
+}
+
+.header p:nth-child(2) {
+  font-size: 0.8rem;
+}
+
+.main {
+  color: #fff;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 3rem;
+}
+
+.form {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background: hsl(209, 23%, 22%);
+}
+
+.fa-search {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.input,
+.select {
+  background: hsl(209, 23%, 22%);
+  border: none;
+}
+
+.select {
+  width: 10rem;
+}
+
+.option {
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
